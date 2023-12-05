@@ -40,7 +40,7 @@ std::map<std::string,std::string> maping(std::string &line){
 
 int main() {
 
-    std::ifstream MyReadFile("C:\\Users\\Menium\\CLionProjects\\untitled111\\data.txt");
+    std::ifstream MyReadFile("data.txt");
     std::string a;
     std::vector<std::string> seed;
     std::map<std::string,std::string> seed_to_soil;
