@@ -12,16 +12,19 @@ bool is_digits(const std::string &str)
     return str.find_first_not_of("0123456789") == std::string::npos;
 }
 
- std::vector <long long> getvalues(std::string &line){
+std::vector <long long> getvalues(std::string &line){
 
     std::string tomap=line;
+    std::string temp;
     std::stringstream ss(tomap);
     std::vector<long long> v;
     while (getline(ss, tomap, ' ')) {
         if(!tomap.empty()&&is_digits(tomap)) {
-            v.push_back(stoll(tomap));
+            temp+=tomap;
+
         }
     }
+    v.push_back(stoll(temp));
     return v;
 }
 long long canit(long long time,long long distance){
