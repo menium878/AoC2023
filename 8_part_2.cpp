@@ -29,7 +29,7 @@ void filetomap(std::string line,std::unordered_map <std::string,std::vector<std:
 }
 int main() {
 
-    std::ifstream MyReadFile("C:\\Users\\Menium\\CLionProjects\\untitled111\\data.txt");
+    std::ifstream MyReadFile("data.txt");
     std::string a;
     std::unordered_map <std::string,std::vector<std::string>>m;
     long sum=0;
