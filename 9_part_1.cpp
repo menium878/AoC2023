@@ -27,7 +27,7 @@ int calculate(std::string &line){
 }
 int main() {
 
-    std::ifstream MyReadFile("C:\\Users\\Menium\\CLionProjects\\untitled111\\data.txt");
+    std::ifstream MyReadFile("data.txt");
     std::string a;
     long sum=0;
     while (std::getline(MyReadFile, a)){
