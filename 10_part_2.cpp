@@ -182,6 +182,6 @@ int main() {
             llll++;
         }
     }
-    std::cout<<"\n"<<"\n"<<llll-std::ceil(cos)+2;
+    std::cout<<"\n"<<"\n"<<llll-std::ceil(cos)+2; //+2 because S and last not included
     return 0;
 }
